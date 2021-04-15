@@ -26,4 +26,3 @@ def test_robot_movement(robot_type, room_type):
             anim.update(room, robots)
             coverage = float(room.get_num_cleaned_tiles())/room.get_num_tiles()
     anim.done()
-© 2021 GitHub, Inc.
